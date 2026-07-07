@@ -14,6 +14,8 @@
 - Intake template.
 - Support boundaries.
 - Read-only SQL snippet files for Query Store workload triage and index/write-risk checks.
+- Offline sanitized-evidence scorer for Query Store/index evidence completeness.
+- Sanitized JSON fixture showing the expected local evidence shape.
 - ZIP package with checksum.
 
 ## Current private-kit hardening
@@ -25,8 +27,9 @@ The private source-of-truth kit now includes a concrete `snippets/` section with
 - Multiple-plan / duration-variance candidates for deeper execution-plan inspection.
 - Missing-index signal review that explicitly treats recommendations as clues, not implementation scripts.
 - Existing-index inventory, foreign-key supporting-index gaps, and write-pressure checks.
+- A local scorer that rejects customer-data scope and blind index creation before a buyer treats evidence as decision-ready.
 
-These snippets are read-only and still require the buyer to run them locally against their own database. Do not paste raw output into GitHub issues if it contains query text, schema names, customer data, proprietary code, IP addresses, or topology.
+These snippets and the scorer are local-only. They still require the buyer to run diagnostics against their own database and redact outputs. Do not paste raw output into GitHub issues if it contains query text, schema names, customer data, proprietary code, IP addresses, or topology.
 
 ## Public sample excerpt
 
@@ -41,19 +44,19 @@ Goal: Find the top workload-backed query problems in 30 minutes without blindly 
 
 ## Summary
 
-The review found three likely sources of avoidable operational friction. None require external publication, credentials, or customer-data upload to evaluate.
+The review found one workload-backed Query Store hotspot, one missing-index signal that needs overlap/write-risk review, and one low-priority foreign-key indexing follow-up. No production change should be made from DMV output alone.
 
 ## Findings
 
 | ID | Finding | Evidence | Severity | Recommendation | Effort |
 |---|---|---|---|---|---|
-| F-001 | The current process lacks a clear evidence source. | No attached logs/export/screenshots in the worksheet. | Medium | Capture the minimum local evidence before deciding. | S |
-| F-002 | The owner/action boundary is unclear. | Checklist item has no owner/due date. | Medium | Assign one owner and one review date. | S |
-| F-003 | The recurring check is not scheduled. | No cadence in the follow-up section. | Low | Add a monthly or quarterly check depending on risk. | S |
+| SQL-QS-001 | Redacted query is a top logical-read consumer. | Query Store runtime export with query text redacted. | High | Capture actual execution plan and compare a query-shape/index candidate before proposing changes. | M |
+| SQL-QS-002 | Missing-index DMV signal overlaps an existing composite index. | Missing-index export + existing-index inventory + write-pressure check. | Medium | Treat as a decision-table candidate; require key-order/include/write-cost review. | M |
+| SQL-QS-003 | One FK path lacks same-order supporting index evidence. | FK support check found a gap, but no matching workload signal yet. | Low | Park as follow-up unless workload evidence points to this table path. | S |
 
 ## Recommended next action
 
-Complete the evidence table and rerun the scoring rubric. If the score remains below 7/10, do not buy consulting or tooling yet — narrow the problem first.
+Run the offline scorer against sanitized local evidence. If it does not return `PASS`, collect better Query Store/runtime/index evidence before discussing any SQL/index change.
 
 ## Not included
 
