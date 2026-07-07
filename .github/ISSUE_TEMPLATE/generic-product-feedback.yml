@@ -1,0 +1,34 @@
+name: Generic product feedback — no secrets
+description: Ask a generic product-scope question without private data.
+title: "[feedback] "
+labels: [feedback]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not paste secrets, credentials, private logs, customer data, proprietary source code, IP addresses, topology, or production exports.
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options:
+        - SQL Server Query Store Triage Kit
+        - EF Core Performance Review Pack
+        - Azure Functions Service Bus Resilience Kit
+        - .NET CI Determinism Kit
+        - Docker Compose Observability Gap Kit
+        - NAS Backup Restore Drill Kit
+        - Obsidian Household Second Brain Starter Kit
+        - AI Agent Governance Evidence Pack
+        - Home Energy Metering Commissioning Kit
+        - Technical Lead Weekly Health Report Kit
+        - General catalog feedback
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Generic feedback
+      description: Keep it generic. Do not include private data or logs.
+    validations:
+      required: true
