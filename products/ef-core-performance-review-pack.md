@@ -3,7 +3,7 @@
 **Buyer:** Teams shipping EF Core apps that suspect N+1 queries, bad LINQ translation, or unsafe migrations.  
 **Promise:** Turn vague EF Core performance concerns into generated SQL evidence and a prioritized fix list.  
 **Price hypothesis:** €39 intro / €79 standard  
-**Status:** preview only; full paid kit not published here.
+**Status:** available for early-access purchase request; full paid kit is not published in this public repo.
 
 ## What the full kit is designed to include
 
@@ -56,3 +56,7 @@ No private data, credentials, remote access, emergency support, or legal/complia
 ## Validation question
 
 If this kit would be useful, the safest public signal is a star, fork, or a GitHub issue containing only a generic, non-secret question about scope.
+
+## How to request this kit
+
+Open a **Purchase interest / early access** issue from this repository and select this product. Do not include private data, logs, credentials, proprietary code, IP addresses, topology, or customer data.

@@ -2,7 +2,12 @@
 
 A portfolio of small, self-serve technical kits for teams and households that want concrete checklists, evidence tables, scoring rubrics, and sample reports instead of vague advice.
 
-> Status: public preview catalog. Full paid ZIP kits are not published here yet. Payment links, customer data intake, and support offers are intentionally not enabled.
+> Status: early-access offer catalog. Full paid ZIP kits are not published here; purchase interest is collected through a no-secrets GitHub issue template.
+
+
+## Early-access offer
+
+The kits are now being offered for early-access purchase requests. See [`OFFER.md`](OFFER.md).
 
 ## First products to validate
 
@@ -31,7 +36,7 @@ Open an issue only for generic product-scope feedback. Do **not** include secret
 
 ## Commercial status
 
-These kits are being validated as self-serve digital products. A payment/download channel may be added later if there is real interest and support boundaries are clear.
+These kits are being validated as self-serve digital products. A payment/download channel will be added for the strongest kit if there is real interest and support boundaries are clear. For now, use the purchase-interest issue template without private data.
 
 ## Repository policy
 

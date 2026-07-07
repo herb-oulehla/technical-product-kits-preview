@@ -1,0 +1,53 @@
+name: Purchase interest / early access — no private data
+description: Request early access to a paid kit without sharing secrets or customer data.
+title: "[purchase-interest] "
+labels: [purchase-interest]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this only to express generic purchase interest. Do not paste secrets, credentials, private logs, customer data, proprietary source code, IP addresses, topology, screenshots containing sensitive data, or production exports.
+  - type: dropdown
+    id: product
+    attributes:
+      label: Kit
+      options:
+        - SQL Server Query Store Triage Kit
+        - EF Core Performance Review Pack
+        - Azure Functions Service Bus Resilience Kit
+        - .NET CI Determinism Kit
+        - Docker Compose Observability Gap Kit
+        - NAS Backup Restore Drill Kit
+        - Obsidian Household Second Brain Starter Kit
+        - AI Agent Governance Evidence Pack
+        - Home Energy Metering Commissioning Kit
+        - Technical Lead Weekly Health Report Kit
+    validations:
+      required: true
+  - type: dropdown
+    id: price
+    attributes:
+      label: Price signal
+      options:
+        - Intro price looks acceptable
+        - Price is too high
+        - I need a cheaper lite version
+        - I would pay more for a done-with-you report
+        - Not sure yet
+    validations:
+      required: true
+  - type: textarea
+    id: generic-use-case
+    attributes:
+      label: Generic use case
+      description: Keep this generic. Do not include private data, logs, credentials, code, customer names, IPs, topology, or production exports.
+      placeholder: "Example: We run EF Core on SQL Server and want a repeatable checklist for generated SQL/performance review."
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: I did not include secrets, credentials, private logs, customer data, proprietary code, IP addresses, topology, screenshots with sensitive data, or production exports.
+          required: true

@@ -3,7 +3,7 @@
 **Buyer:** Self-hosters and small teams with Compose stacks that work until they silently do not.  
 **Promise:** Find missing healthchecks, restart policy gaps, log blind spots, and backup/restore assumptions in one pass.  
 **Price hypothesis:** €39 intro / €89 standard  
-**Status:** preview only; full paid kit not published here.
+**Status:** available for early-access purchase request; full paid kit is not published in this public repo.
 
 ## What the full kit is designed to include
 
@@ -56,3 +56,7 @@ No private data, credentials, remote access, emergency support, or legal/complia
 ## Validation question
 
 If this kit would be useful, the safest public signal is a star, fork, or a GitHub issue containing only a generic, non-secret question about scope.
+
+## How to request this kit
+
+Open a **Purchase interest / early access** issue from this repository and select this product. Do not include private data, logs, credentials, proprietary code, IP addresses, topology, or customer data.
