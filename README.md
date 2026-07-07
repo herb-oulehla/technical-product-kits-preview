@@ -12,7 +12,7 @@ The kits are now being offered for early-access purchase requests. See [`OFFER.m
 ## First products to validate
 
 1. **SQL Server Query Store Triage Kit** — workload-backed SQL triage for .NET/SQL teams, now with read-only Query Store/DMV snippet inventory in the private kit.
-2. **EF Core Performance Review Pack** — generated-SQL evidence workflow for EF Core performance reviews.
+2. **EF Core Performance Review Pack** — generated-SQL evidence workflow with local `ToQueryString()` capture, Query Store correlation, migration preflight snippets, and an offline sanitized-evidence scorer in the private kit.
 3. **AI Agent Governance Evidence Pack** — approval gates and evidence registers for teams adopting coding agents.
 
 ## Catalog
