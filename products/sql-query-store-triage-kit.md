@@ -13,7 +13,20 @@
 - Scoring rubric.
 - Intake template.
 - Support boundaries.
+- Read-only SQL snippet files for Query Store workload triage and index/write-risk checks.
 - ZIP package with checksum.
+
+## Current private-kit hardening
+
+The private source-of-truth kit now includes a concrete `snippets/` section with:
+
+- Query Store state and capture-setting checks.
+- Top workload-backed statements by logical reads, CPU, writes, duration, and executions.
+- Multiple-plan / duration-variance candidates for deeper execution-plan inspection.
+- Missing-index signal review that explicitly treats recommendations as clues, not implementation scripts.
+- Existing-index inventory, foreign-key supporting-index gaps, and write-pressure checks.
+
+These snippets are read-only and still require the buyer to run them locally against their own database. Do not paste raw output into GitHub issues if it contains query text, schema names, customer data, proprietary code, IP addresses, or topology.
 
 ## Public sample excerpt
 
