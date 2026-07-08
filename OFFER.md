@@ -38,7 +38,7 @@ If you are a .NET/Azure team, start here:
 
 If you are experimenting with coding agents:
 
-- **AI Agent Governance Evidence Pack** — approval gates, tool inventory, and evidence register.
+- **AI Agent Governance Evidence Pack** — approval gates, local evidence register, offline validator/generator, and approval-gate matrix.
 
 ## What the paid kit includes
 

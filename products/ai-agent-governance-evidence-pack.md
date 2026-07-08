@@ -9,6 +9,9 @@
 
 - Buyer README.
 - Main worksheet/checklist/report template.
+- Approval-gate evidence matrix for publication, outreach, OAuth/login, payment, customer/private data, telemetry, and credential/security changes.
+- Fictional local evidence-register JSON fixture.
+- Offline validator and generated governance-review flow.
 - Filled sample report.
 - Scoring rubric.
 - Intake template.
@@ -20,38 +23,32 @@
 ```markdown
 # Sample filled report — AI Agent Governance Evidence Pack
 
-## Context
+## Validation summary
 
-Example buyer: fictional small team / household operator.  
-Category: AI operations / compliance-adjacent documentation.  
-Goal: Show what your agent is allowed to do, what it did, and where human approval is required.
+- Evidence register status: **PASS**
+- Governance readiness score: **100/100** on the fictional fixture
+- Local completed actions: 2
+- Approval-boundary actions blocked: 1
+- Network/login/customer-data upload required: **no**
 
-## Summary
+## Approval-gate findings
 
-The review found three likely sources of avoidable operational friction. None require external publication, credentials, or customer-data upload to evaluate.
-
-## Findings
-
-| ID | Finding | Evidence | Severity | Recommendation | Effort |
+| ID | Gate | Evidence | Severity | Recommendation | Effort |
 |---|---|---|---|---|---|
-| F-001 | The current process lacks a clear evidence source. | No attached logs/export/screenshots in the worksheet. | Medium | Capture the minimum local evidence before deciding. | S |
-| F-002 | The owner/action boundary is unclear. | Checklist item has no owner/due date. | Medium | Assign one owner and one review date. | S |
-| F-003 | The recurring check is not scheduled. | No cadence in the follow-up section. | Low | Add a monthly or quarterly check depending on risk. | S |
+| G-001 | Publication | `RUN-003` is `blocked_pending_approval` with `approval_gate=publication`. | High | Keep the offer/publication step blocked until the exact channel, title/body, files, price, payment/download boundary, and support policy are approved. | S |
+| G-002 | Credential/security changes | Tool `T-004` is `critical`, `allowed_without_human_approval=false`, and has a credential/security approval gate. | High | Keep credential, permission, OAuth, hosted telemetry, and security-setting changes outside the self-serve workflow unless separately approved with rollback evidence. | S |
 
 ## Recommended next action
 
-Complete the evidence table and rerun the scoring rubric. If the score remains below 7/10, do not buy consulting or tooling yet — narrow the problem first.
-
-## Not included
-
-No private data, credentials, remote access, emergency support, or legal/compliance certification.
+Fill the approval-gate evidence matrix for one real internal agent workflow using only local, redacted evidence. If any row needs publication, outreach, account/OAuth, payment, customer data, hosted telemetry, credentials, permissions, or security changes, stop at `blocked_pending_approval` until exact approval exists.
 ```
 
 ## Boundaries
 
-- Do not open GitHub issues with secrets, credentials, private infrastructure exports, customer data, logs containing personal data, or proprietary code.
-- This preview is not emergency support, legal advice, compliance certification, or a production consulting engagement.
+- Do not open GitHub issues with secrets, credentials, private infrastructure exports, customer data, logs containing personal data, proprietary code, IP addresses, topology, or production exports.
+- This preview is not emergency support, legal advice, compliance certification, security certification, or a production consulting engagement.
 - Payment/download/support channels are not enabled in this preview repo.
+- A generated PASS means evidence-quality control only; it is not approval for external action.
 
 ## Validation question
 
