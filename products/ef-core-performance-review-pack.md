@@ -8,6 +8,7 @@
 ## What the full kit is designed to include
 
 - Buyer README.
+- Buyer quickstart for local-only redacted evidence, scorer execution, and no-production-change boundaries.
 - Main worksheet/checklist/report template.
 - Filled sample report.
 - Scoring rubric.
