@@ -15,6 +15,7 @@
 - Support boundaries.
 - Read-only SQL snippet files for Query Store workload triage and index/write-risk checks.
 - Offline sanitized-evidence scorer for Query Store/index evidence completeness.
+- Candidate index decision record template that turns noisy DMV signals into `reject` / `park` / `collect_more_evidence` / `propose_scoped_change` decisions.
 - Sanitized JSON fixture showing the expected local evidence shape.
 - ZIP package with checksum.
 
@@ -28,6 +29,7 @@ The private source-of-truth kit now includes a concrete `snippets/` section with
 - Missing-index signal review that explicitly treats recommendations as clues, not implementation scripts.
 - Existing-index inventory, foreign-key supporting-index gaps, and write-pressure checks.
 - A local scorer that rejects customer-data scope and blind index creation before a buyer treats evidence as decision-ready.
+- A candidate index decision record requiring Query Store evidence, overlap/write-risk review, rehearsal/rollback notes, and explicit owner approval before any SQL/index/query change.
 
 These snippets and the scorer are local-only. They still require the buyer to run diagnostics against their own database and redact outputs. Do not paste raw output into GitHub issues if it contains query text, schema names, customer data, proprietary code, IP addresses, or topology.
 
@@ -53,6 +55,12 @@ The review found one workload-backed Query Store hotspot, one missing-index sign
 | SQL-QS-001 | Redacted query is a top logical-read consumer. | Query Store runtime export with query text redacted. | High | Capture actual execution plan and compare a query-shape/index candidate before proposing changes. | M |
 | SQL-QS-002 | Missing-index DMV signal overlaps an existing composite index. | Missing-index export + existing-index inventory + write-pressure check. | Medium | Treat as a decision-table candidate; require key-order/include/write-cost review. | M |
 | SQL-QS-003 | One FK path lacks same-order supporting index evidence. | FK support check found a gap, but no matching workload signal yet. | Low | Park as follow-up unless workload evidence points to this table path. | S |
+
+## Candidate decision record excerpt
+
+| Candidate | Decision | Why | Required approval before action |
+|---|---|---|---|
+| SQL-QS-002 missing-index overlap | `collect_more_evidence` | Query Store hotspot and missing-index clue exist, but existing composite-index overlap and write pressure need a scoped rehearsal. | Database owner approval, rollback path, and post-change Query Store monitoring plan. |
 
 ## Recommended next action
 
