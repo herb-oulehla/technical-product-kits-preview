@@ -8,6 +8,7 @@
 ## What the full kit is designed to include
 
 - Buyer README.
+- Buyer quickstart with local evidence prerequisites, scorer command, expected PASS output, and safety boundaries.
 - Main worksheet/checklist/report template.
 - Filled sample report.
 - Scoring rubric.
@@ -30,6 +31,7 @@ The private source-of-truth kit now includes a concrete `snippets/` section with
 - Existing-index inventory, foreign-key supporting-index gaps, and write-pressure checks.
 - A local scorer that rejects customer-data scope and blind index creation before a buyer treats evidence as decision-ready.
 - A candidate index decision record requiring Query Store evidence, overlap/write-risk review, rehearsal/rollback notes, and explicit owner approval before any SQL/index/query change.
+- A buyer quickstart that shows the offline scorer command and the minimum redacted evidence packet needed before discussing any query/index change.
 
 These snippets and the scorer are local-only. They still require the buyer to run diagnostics against their own database and redact outputs. Do not paste raw output into GitHub issues if it contains query text, schema names, customer data, proprietary code, IP addresses, or topology.
 

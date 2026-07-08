@@ -32,7 +32,7 @@ The checkout/payment flow is still manual. Do **not** include private data, logs
 
 If you are a .NET/Azure team, start here:
 
-1. **SQL Server Query Store Triage Kit** — for workload-backed SQL triage with read-only Query Store/DMV snippets, an offline evidence scorer, and a candidate index decision record.
+1. **SQL Server Query Store Triage Kit** — for workload-backed SQL triage with read-only Query Store/DMV snippets, an offline evidence scorer, a candidate index decision record, and a buyer quickstart.
 2. **EF Core Performance Review Pack** — for generated-SQL evidence and migration/performance review.
 3. **Azure Functions Service Bus Resilience Kit** — for retry, dead-letter, idempotency, and incident-drill gaps.
 
