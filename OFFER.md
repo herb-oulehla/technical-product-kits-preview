@@ -1,20 +1,27 @@
 # Early-access technical product kits
 
-These self-serve technical kits are now available for early-access purchase requests.
+These self-serve technical kits are now available for early-access purchase requests. The EF Core Performance Review Pack has a live paid pilot checkout.
 
-The checkout/payment flow is still manual. Do **not** include private data, logs, credentials, customer data, proprietary code, IP addresses, or infrastructure topology in GitHub issues.
+The EF Core checkout is a Stripe Payment Link with manual/private ZIP delivery to the checkout email. Do **not** include private data, logs, credentials, customer data, proprietary code, IP addresses, or infrastructure topology in GitHub issues.
 
 ## How to request a kit
 
 1. Open a **Purchase interest / early access** issue using the template.
 2. Select the kit you want.
 3. Keep the issue generic: product name, intended use case, and whether the price looks acceptable.
-4. The owner will respond with the next manual purchase/delivery step when a payment path is available.
+4. For EF Core, use the paid checkout link below. For other kits, the owner will respond with the next manual purchase/delivery step when a payment path is available.
 
 > This repository is not a support desk and does not accept customer data. It is a low-friction way to validate demand and queue early buyers.
 
 ## Available kits and intro pricing
 
+<!-- EF_CORE_PAID_CHECKOUT_START -->
+## Live paid pilot
+
+**EF Core Performance Review Pack** is the first paid-download pilot: [https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00](https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00) — €39 intro.
+
+This checkout is for the local ZIP kit only. It does not include private evidence review, consulting, remote access, production changes, customer-data intake, subscriptions, bundles, or support SLA.
+<!-- EF_CORE_PAID_CHECKOUT_END -->
 | # | Kit | Intro price | Standard price | Preview |
 |---|---|---:|---:|---|
 | 1 | SQL Server Query Store Triage Kit | €49 intro | €99 standard | [`products/sql-query-store-triage-kit.md`](products/sql-query-store-triage-kit.md) |
@@ -60,4 +67,4 @@ If you are experimenting with coding agents:
 
 ## Current commercial status
 
-This is an early-access offer. Payment/download automation is intentionally not wired yet. The first signals will decide which kit gets a proper paid download flow first.
+This is an early-access offer. EF Core has a live Stripe paid pilot checkout with manual/private ZIP delivery; download automation is intentionally not wired yet. Signals from this pilot will decide whether to harden a fuller paid-download flow or rotate to another kit.

@@ -2,11 +2,18 @@
 
 A portfolio of small, self-serve technical kits for teams and households that want concrete checklists, evidence tables, scoring rubrics, and sample reports instead of vague advice.
 
-> Status: early-access offer catalog. Full paid ZIP kits are not published here; purchase interest is collected through a no-secrets GitHub issue template.
+> Status: early-access offer catalog. The EF Core paid pilot checkout is live; full paid ZIP kits are not published in this public repo.
 
 
 ## Early-access offer
 
+<!-- EF_CORE_PAID_CHECKOUT_START -->
+## EF Core paid pilot checkout
+
+The **EF Core Performance Review Pack** paid pilot is available at **€39 intro**: [https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00](https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00).
+
+Boundary: local-only download; do not send secrets, code, schemas, logs, raw SQL, customer data, credentials, IPs, or topology. No consulting/SLA/private-data review is included.
+<!-- EF_CORE_PAID_CHECKOUT_END -->
 The kits are now being offered for early-access purchase requests. See [`OFFER.md`](OFFER.md).
 
 ## First products to validate
@@ -36,7 +43,7 @@ Open an issue only for generic product-scope feedback. Do not include secrets, c
 
 ## Commercial status
 
-These kits are being validated as self-serve digital products. A payment/download channel will be added for the strongest kit if there is real interest and support boundaries are clear. For now, use the purchase-interest issue template without private data.
+These kits are being validated as self-serve digital products. The EF Core paid pilot now has a Stripe checkout link; other kits remain in early-access validation. Full ZIP kits/checksums are maintained separately by the owner, and no customer-specific work is accepted through this repository.
 
 ## Repository policy
 

@@ -3,10 +3,17 @@
 **Buyer:** Teams shipping EF Core apps that suspect N+1 queries, bad LINQ translation, or unsafe migrations.  
 **Promise:** Turn vague EF Core performance concerns into generated SQL evidence and a prioritized fix list.  
 **Price hypothesis:** €39 intro / €79 standard  
-**Status:** available for early-access purchase request; full paid kit is not published in this public repo.
+**Status:** paid pilot checkout live; full paid kit is not published in this public repo.
 
 ## What the full kit is designed to include
 
+<!-- EF_CORE_PAID_CHECKOUT_START -->
+## Paid pilot checkout
+
+Intro checkout: [https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00](https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00) — €39.
+
+The paid kit is delivered as a local ZIP with checksum. Do not upload or send private code, logs, schemas, raw SQL, customer data, credentials, IPs, or topology.
+<!-- EF_CORE_PAID_CHECKOUT_END -->
 - Buyer README.
 - Buyer quickstart for local-only redacted evidence, scorer execution, and no-production-change boundaries.
 - Main worksheet/checklist/report template.
@@ -51,7 +58,7 @@ No private data, credentials, remote access, production changes, emergency suppo
 
 - Do not open GitHub issues with secrets, credentials, private infrastructure exports, customer data, logs containing personal data, proprietary code, IP addresses, topology, raw query text, or schema details.
 - This preview is not emergency support, legal advice, compliance certification, or a production consulting engagement.
-- Payment/download/support channels are not enabled in this preview repo.
+- Payment checkout is enabled only through the EF Core paid-pilot link above. ZIP delivery is manual/private to the checkout email; no support SLA or private-data review is included.
 
 ## Validation question
 
@@ -59,4 +66,4 @@ If this kit would be useful, the safest public signal is a star, fork, or a GitH
 
 ## How to request this kit
 
-Open a **Purchase interest / early access** issue from this repository and select this product. Do not include private data, logs, credentials, proprietary code, IP addresses, topology, query text, schema details, or customer data.
+Use the EF Core paid-pilot checkout link above for purchase. Open a GitHub issue only for generic, non-secret product-scope feedback. Do not include private data, logs, credentials, proprietary code, IP addresses, topology, query text, schema details, or customer data.
