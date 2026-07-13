@@ -12,6 +12,8 @@ A portfolio of small, self-serve technical kits for teams and households that wa
 
 The **EF Core Performance Review Pack** paid pilot is available at **€39 intro**: [https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00](https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00).
 
+Launch note: [`launch/ef-core-performance-review-pack-paid-pilot.md`](launch/ef-core-performance-review-pack-paid-pilot.md).
+
 Boundary: local-only download; do not send secrets, code, schemas, logs, raw SQL, customer data, credentials, IPs, or topology. No consulting/SLA/private-data review is included.
 <!-- EF_CORE_PAID_CHECKOUT_END -->
 The kits are now being offered for early-access purchase requests. See [`OFFER.md`](OFFER.md).

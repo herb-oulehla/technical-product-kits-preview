@@ -12,6 +12,8 @@
 
 Intro checkout: [https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00](https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00) — €39.
 
+Launch note: [`../launch/ef-core-performance-review-pack-paid-pilot.md`](../launch/ef-core-performance-review-pack-paid-pilot.md).
+
 The paid kit is delivered as a local ZIP with checksum. Do not upload or send private code, logs, schemas, raw SQL, customer data, credentials, IPs, or topology.
 <!-- EF_CORE_PAID_CHECKOUT_END -->
 - Buyer README.

@@ -20,6 +20,8 @@ The EF Core checkout is a Stripe Payment Link with manual/private ZIP delivery t
 
 **EF Core Performance Review Pack** is the first paid-download pilot: [https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00](https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00) — €39 intro.
 
+Launch note: [`launch/ef-core-performance-review-pack-paid-pilot.md`](launch/ef-core-performance-review-pack-paid-pilot.md).
+
 This checkout is for the local ZIP kit only. It does not include private evidence review, consulting, remote access, production changes, customer-data intake, subscriptions, bundles, or support SLA.
 <!-- EF_CORE_PAID_CHECKOUT_END -->
 | # | Kit | Intro price | Standard price | Preview |
