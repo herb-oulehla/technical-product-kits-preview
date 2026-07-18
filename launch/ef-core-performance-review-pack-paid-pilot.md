@@ -2,6 +2,12 @@
 
 A small, local-only kit for teams using EF Core who want to turn vague performance concerns into redacted evidence they can discuss safely.
 
+Free public checklist:
+
+```text
+https://github.com/herb-oulehla/technical-product-kits-preview/blob/main/free/ef-core-generated-sql-review-checklist.md
+```
+
 Checkout:
 
 ```text

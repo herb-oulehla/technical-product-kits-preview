@@ -10,6 +10,8 @@
 <!-- EF_CORE_PAID_CHECKOUT_START -->
 ## Paid pilot checkout
 
+Free public checklist: [`../free/ef-core-generated-sql-review-checklist.md`](../free/ef-core-generated-sql-review-checklist.md).
+
 Intro checkout: [https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00](https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00) — €39.
 
 Launch note: [`../launch/ef-core-performance-review-pack-paid-pilot.md`](../launch/ef-core-performance-review-pack-paid-pilot.md).

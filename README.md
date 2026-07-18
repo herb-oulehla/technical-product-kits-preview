@@ -10,6 +10,8 @@ A portfolio of small, self-serve technical kits for teams and households that wa
 <!-- EF_CORE_PAID_CHECKOUT_START -->
 ## EF Core paid pilot checkout
 
+Free public checklist: [`free/ef-core-generated-sql-review-checklist.md`](free/ef-core-generated-sql-review-checklist.md).
+
 The **EF Core Performance Review Pack** paid pilot is available at **€39 intro**: [https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00](https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00).
 
 Launch note: [`launch/ef-core-performance-review-pack-paid-pilot.md`](launch/ef-core-performance-review-pack-paid-pilot.md).
