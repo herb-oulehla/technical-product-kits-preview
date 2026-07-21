@@ -3,16 +3,16 @@
 **Buyer:** Teams shipping EF Core apps that suspect N+1 queries, bad LINQ translation, or unsafe migrations.  
 **Promise:** Turn vague EF Core performance concerns into generated SQL evidence and a prioritized fix list.  
 **Price hypothesis:** €39 intro / €79 standard  
-**Status:** paid pilot checkout live; full paid kit is not published in this public repo.
+**Status:** paid pilot checkout withdrawn after zero-payment validation; full paid kit is not published in this public repo.
 
 ## What the full kit is designed to include
 
 <!-- EF_CORE_PAID_CHECKOUT_START -->
-## Paid pilot checkout
+## Pilot status
 
 Free public checklist: [`../free/ef-core-generated-sql-review-checklist.md`](../free/ef-core-generated-sql-review-checklist.md).
 
-Intro checkout: [https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00](https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00) — €39.
+The public paid checkout has been withdrawn. Use the free checklist first; this lane is parked/repositioning unless new evidence appears.
 
 Launch note: [`../launch/ef-core-performance-review-pack-paid-pilot.md`](../launch/ef-core-performance-review-pack-paid-pilot.md).
 
@@ -62,7 +62,7 @@ No private data, credentials, remote access, production changes, emergency suppo
 
 - Do not open GitHub issues with secrets, credentials, private infrastructure exports, customer data, logs containing personal data, proprietary code, IP addresses, topology, raw query text, or schema details.
 - This preview is not emergency support, legal advice, compliance certification, or a production consulting engagement.
-- Payment checkout is enabled only through the EF Core paid-pilot link above. ZIP delivery is manual/private to the checkout email; no support SLA or private-data review is included.
+- Public paid checkout is currently withdrawn. If the paid kit is reopened later, ZIP delivery and support boundaries will be stated explicitly; no support SLA or private-data review is included by default.
 
 ## Validation question
 
@@ -70,4 +70,4 @@ If this kit would be useful, the safest public signal is a star, fork, or a GitH
 
 ## How to request this kit
 
-Use the EF Core paid-pilot checkout link above for purchase. Open a GitHub issue only for generic, non-secret product-scope feedback. Do not include private data, logs, credentials, proprietary code, IP addresses, topology, query text, schema details, or customer data.
+Use the free checklist first. Open a GitHub issue only for generic, non-secret product-scope feedback. Do not include private data, logs, credentials, proprietary code, IP addresses, topology, query text, schema details, or customer data.

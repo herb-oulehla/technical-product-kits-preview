@@ -1,30 +1,30 @@
 # Early-access technical product kits
 
-These self-serve technical kits are now available for early-access purchase requests. The EF Core Performance Review Pack has a live paid pilot checkout.
+These self-serve technical kits are in early-access validation. The EF Core Performance Review Pack paid-first checkout has been withdrawn after zero-payment validation.
 
-The EF Core checkout is a Stripe Payment Link with manual/private ZIP delivery to the checkout email. Do **not** include private data, logs, credentials, customer data, proprietary code, IP addresses, or infrastructure topology in GitHub issues.
+Do **not** include private data, logs, credentials, customer data, proprietary code, IP addresses, or infrastructure topology in GitHub issues.
 
 ## How to request a kit
 
 1. Open a **Purchase interest / early access** issue using the template.
 2. Select the kit you want.
 3. Keep the issue generic: product name, intended use case, and whether the price looks acceptable.
-4. For EF Core, use the paid checkout link below. For other kits, the owner will respond with the next manual purchase/delivery step when a payment path is available.
+4. For EF Core, use the free checklist first. Paid checkout is currently not public.
 
 > This repository is not a support desk and does not accept customer data. It is a low-friction way to validate demand and queue early buyers.
 
 ## Available kits and intro pricing
 
 <!-- EF_CORE_PAID_CHECKOUT_START -->
-## Live paid pilot
+## EF Core pilot parked
 
 Free public checklist: [`free/ef-core-generated-sql-review-checklist.md`](free/ef-core-generated-sql-review-checklist.md).
 
-**EF Core Performance Review Pack** is the first paid-download pilot: [https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00](https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00) — €39 intro.
+**EF Core Performance Review Pack** is not currently offered through public checkout. The paid-first pilot produced no validated payment signal, so the public CTA has been withdrawn while the lane is parked/repositioned.
 
 Launch note: [`launch/ef-core-performance-review-pack-paid-pilot.md`](launch/ef-core-performance-review-pack-paid-pilot.md).
 
-This checkout is for the local ZIP kit only. It does not include private evidence review, consulting, remote access, production changes, customer-data intake, subscriptions, bundles, or support SLA.
+If the kit is reopened later, it will remain local-only and will not include private evidence review, consulting, remote access, production changes, customer-data intake, subscriptions, bundles, or support SLA unless explicitly stated.
 <!-- EF_CORE_PAID_CHECKOUT_END -->
 | # | Kit | Intro price | Standard price | Preview |
 |---|---|---:|---:|---|
@@ -71,4 +71,4 @@ If you are experimenting with coding agents:
 
 ## Current commercial status
 
-This is an early-access offer. EF Core has a live Stripe paid pilot checkout with manual/private ZIP delivery; download automation is intentionally not wired yet. Signals from this pilot will decide whether to harden a fuller paid-download flow or rotate to another kit.
+This is an early-access catalog. EF Core paid-first checkout is withdrawn after zero-payment validation. Next commercial work should either reposition the offer or rotate toward a stronger kit, such as SQL Server Query Store triage.

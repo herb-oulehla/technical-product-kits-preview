@@ -144,11 +144,7 @@ The paid EF Core Performance Review Pack packages this workflow as a local ZIP w
 - scoring rubric;
 - checksum verification.
 
-Paid pilot checkout:
-
-```text
-https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00
-```
+The public paid checkout is currently withdrawn after zero-payment validation. This free checklist remains available as the low-friction entry point while the lane is parked or repositioned.
 
 Expected ZIP SHA-256:
 

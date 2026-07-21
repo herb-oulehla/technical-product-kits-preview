@@ -8,13 +8,7 @@ Free public checklist:
 https://github.com/herb-oulehla/technical-product-kits-preview/blob/main/free/ef-core-generated-sql-review-checklist.md
 ```
 
-Checkout:
-
-```text
-https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00
-```
-
-Intro price: **€39**.
+Pilot status: public paid checkout withdrawn after zero-payment validation.
 
 ## What this is
 
@@ -45,7 +39,7 @@ This kit packages that evidence workflow so a team can run it internally before 
 
 ## Boundaries
 
-This paid pilot is for the local ZIP kit only.
+This paid pilot is currently parked. The paid ZIP is not publicly offered through this repo.
 
 Not included:
 
@@ -62,7 +56,7 @@ Do not send or upload secrets, credentials, source code, schemas, raw SQL, logs,
 
 ## Delivery note
 
-The first pilot uses a Stripe Payment Link. ZIP delivery is manual/private to the checkout email until an automated digital-download layer is added.
+The public paid checkout has been withdrawn. ZIP delivery is not active through this public repo.
 
 Expected ZIP SHA-256:
 

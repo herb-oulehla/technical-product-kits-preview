@@ -2,17 +2,17 @@
 
 A portfolio of small, self-serve technical kits for teams and households that want concrete checklists, evidence tables, scoring rubrics, and sample reports instead of vague advice.
 
-> Status: early-access offer catalog. The EF Core paid pilot checkout is live; full paid ZIP kits are not published in this public repo.
+> Status: early-access offer catalog. The EF Core paid-first checkout has been withdrawn after zero-payment validation; full paid ZIP kits are not published in this public repo.
 
 
 ## Early-access offer
 
 <!-- EF_CORE_PAID_CHECKOUT_START -->
-## EF Core paid pilot checkout
+## EF Core pilot status
 
 Free public checklist: [`free/ef-core-generated-sql-review-checklist.md`](free/ef-core-generated-sql-review-checklist.md).
 
-The **EF Core Performance Review Pack** paid pilot is available at **€39 intro**: [https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00](https://buy.stripe.com/00wfZjeH90Zc9Vtewq1Fe00).
+The **EF Core Performance Review Pack** paid checkout is currently withdrawn. Use the free checklist first; the paid ZIP is not publicly offered while the lane is being parked/repositioned.
 
 Launch note: [`launch/ef-core-performance-review-pack-paid-pilot.md`](launch/ef-core-performance-review-pack-paid-pilot.md).
 
@@ -47,7 +47,7 @@ Open an issue only for generic product-scope feedback. Do not include secrets, c
 
 ## Commercial status
 
-These kits are being validated as self-serve digital products. The EF Core paid pilot now has a Stripe checkout link; other kits remain in early-access validation. Full ZIP kits/checksums are maintained separately by the owner, and no customer-specific work is accepted through this repository.
+These kits are being validated as self-serve digital products. The EF Core paid-first checkout has been withdrawn after zero-payment validation; other kits remain in early-access validation. Full ZIP kits/checksums are maintained separately by the owner, and no customer-specific work is accepted through this repository.
 
 ## Repository policy
 
