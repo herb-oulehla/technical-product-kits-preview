@@ -38,6 +38,7 @@ If the kit is reopened later, it will remain local-only and will not include pri
 | 8 | AI Agent Governance Evidence Pack | €49 intro | €149 team pack | [`products/ai-agent-governance-evidence-pack.md`](products/ai-agent-governance-evidence-pack.md) |
 | 9 | Home Energy Metering Commissioning Kit | €29 intro | €79 with example configs | [`products/home-energy-metering-commissioning-kit.md`](products/home-energy-metering-commissioning-kit.md) |
 | 10 | Technical Lead Weekly Health Report Kit | €19 intro | €49 standard | [`products/technical-lead-weekly-health-report-kit.md`](products/technical-lead-weekly-health-report-kit.md) |
+| 11 | Agentic Investment Research QA Kit | €39 intro | €79 standard | [`products/agentic-investment-research-qa-kit.md`](products/agentic-investment-research-qa-kit.md) |
 
 ## Recommended first buys
 
@@ -50,6 +51,7 @@ If you are a .NET/Azure team, start here:
 If you are experimenting with coding agents:
 
 - **AI Agent Governance Evidence Pack** — approval gates, local evidence register, offline validator/generator, and approval-gate matrix.
+- **Agentic Investment Research QA Kit** — research-process evidence/freshness/dissent scoring only; no buy/sell recommendations, automated trading, brokerage integration, or profitability claims. Start with the free [`Agentic Investment Research Output Checklist`](free/agentic-investment-research-output-checklist.md).
 
 ## What the paid kit includes
 

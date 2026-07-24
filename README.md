@@ -25,6 +25,7 @@ The kits are now being offered for early-access purchase requests. See [`OFFER.m
 1. **SQL Server Query Store Triage Kit** — workload-backed SQL triage for .NET/SQL teams, now with read-only Query Store/DMV snippets, an offline sanitized-evidence scorer, a candidate index decision record, and a buyer quickstart in the private kit.
 2. **EF Core Performance Review Pack** — generated-SQL evidence workflow with a buyer quickstart, local `ToQueryString()` capture, Query Store correlation, migration preflight snippets, and an offline sanitized-evidence scorer in the private kit.
 3. **AI Agent Governance Evidence Pack** — approval gates, evidence registers, offline validator/generator, and an approval-gate matrix for teams adopting coding agents.
+4. **Agentic Investment Research QA Kit** — evidence freshness, bull/bear symmetry, critic/CEO synthesis, and unsafe trading-advice drift checks for research-agent builders; no trading signals or execution.
 
 ## Catalog
 
@@ -40,10 +41,13 @@ The kits are now being offered for early-access purchase requests. See [`OFFER.m
 | 8 | AI Agent Governance Evidence Pack | €49 intro / €149 team pack | [`products/ai-agent-governance-evidence-pack.md`](products/ai-agent-governance-evidence-pack.md) |
 | 9 | Home Energy Metering Commissioning Kit | €29 intro / €79 with example configs | [`products/home-energy-metering-commissioning-kit.md`](products/home-energy-metering-commissioning-kit.md) |
 | 10 | Technical Lead Weekly Health Report Kit | €19 intro / €49 standard | [`products/technical-lead-weekly-health-report-kit.md`](products/technical-lead-weekly-health-report-kit.md) |
+| 11 | Agentic Investment Research QA Kit | €39 intro / €79 standard | [`products/agentic-investment-research-qa-kit.md`](products/agentic-investment-research-qa-kit.md) |
+
+Free public proof: [`Agentic Investment Research Output Checklist`](free/agentic-investment-research-output-checklist.md).
 
 ## Safe feedback rules
 
-Open an issue only for generic product-scope feedback. Do not include secrets, credentials, private logs, customer data, proprietary source code, IP addresses, topology, or production exports.
+Open an issue only for generic product-scope feedback. Do not include secrets, credentials, private logs, customer data, proprietary source code, IP addresses, topology, production exports, brokerage/account data, positions, trades, or personal financial information.
 
 ## Commercial status
 
